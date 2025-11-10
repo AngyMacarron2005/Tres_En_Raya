@@ -96,7 +96,14 @@ celdas.forEach((celda, index) => {
       tableroEstado[index] = turnoActual;
 
       const img = document.createElement("img");
-      img.src = turnoActual === "X" ? "../assets/X.png" : "../assets/O.png";
+      if (turnoActual === "X") 
+        {
+          img.src = "../assets/X.png";
+        } 
+      else 
+        {
+          img.src = "../assets/O.png";
+        }
       img.alt = turnoActual;
       img.classList.add("marca");
       celda.appendChild(img);
