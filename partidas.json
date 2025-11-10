@@ -1,0 +1,26 @@
+[
+  {
+    "jugador1": "Ana",
+    "jugador2": "Luis",
+    "ganador": "Ana",
+    "duracion": "00:42",
+    "movimientos": 6,
+    "fecha": "2025-11-09 21:00:10"
+  },
+  {
+    "jugador1": "Mario",
+    "jugador2": "Lucía",
+    "ganador": "Lucía",
+    "duracion": "01:02",
+    "movimientos": 9,
+    "fecha": "2025-11-10 20:30:15"
+  },
+  {
+    "jugador1": "Carlos",
+    "jugador2": "Ana",
+    "ganador": "Empate",
+    "duracion": "00:55",
+    "movimientos": 9,
+    "fecha": "2025-11-10 20:45:50"
+  }
+]
